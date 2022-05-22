@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: paragrap;
+    src: url(/fonts/sf-pro-display/SFPRODISPLAYMEDIUM.OTF);
+}
+
+html {
+    font-family: paragrap;
+}
+
+.nav {
+    display: flex;
+}
+
+
+.nav .navber {
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 100%;
+}
+
+.nav .navber ul li {
+    padding-bottom: 50px;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.nav .navber ul {}
+
+.nav .navber ul li .fa-solid {
+    text-align: center;
+    width: 50px;
+}
+
+
+.profile-img {
+    margin-top: 14px;
+    width: 270px;
+}
+
+.profile-img img {
+    width: 100%;
+}
+
+.profile-img .profile-img-two {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 20px;
+    width: 230px;
+    height: 286px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-img .profile-img-2 {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+}
+
+.profile-img .profile-img-2 img {
+    width: 100%;
+}
+
+.profile-img .resalkhan {
+    margin-top: 21px;
+    text-align: center;
+}
+
+.profile-img .resalkhan .fa-link {
+    font-size: 12px;
+    color: #8F92A1;
+}
+
+.profile-img .resalkhan p small {
+    color: #45B26B;
+}
+
+.profile-img .resalkhan small {
+    color: #8F92A1;
+}
+
+.profile-img .resalkhan p {
+    color: #777E90;
+}
+
+
+/* instragrm start */
+
+.instagram {
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 8px 10px;
+    width: 230px;
+    height: 40px;
+}
+
+.instagram .fa-brands {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #E6E8EC;
+}
+
+.instagram .fa-basketball {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #E6E8EC;
+}
+
+/* instragram end */
+
+/* post-section start*/
+.post-section {
+    width: 230px;
+    height: 240px;
+    margin-bottom: 20px;
+    margin: 0 20px;
+}
+
+.post-section .post-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-section .post-container p {
+    margin-left: 10px;
+    color: #4B4B4B;
+    font-size: 16px;
+}
+
+.post-section .donation p {
+    margin-left: 10px;
+    color: #4B4B4B;
+    font-size: 16px;
+}
+
+.post-section .post-container .fa-regular {
+    border: 1px solid #E6E8EC;
+    background: #E6E8EC;
+    padding: 6px;
+    border-radius: 10px;
+    color: #B1B5C3;
+
+}
+
+.post-section .donation .fa-location-pin {
+    border: 1px solid #E6E8EC;
+    background: #E6E8EC;
+    padding: 6px;
+    border-radius: 10px;
+    color: #B1B5C3;
+
+}
+
+.post-section .donation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-section .contributions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-section .contributions .fa-circle-dollar-to-slot {
+    border: 1px solid #E6E8EC;
+    background: #E6E8EC;
+    padding: 6px;
+    border-radius: 10px;
+    color: #B1B5C3;
+
+}
+
+.post-section .contributions p {
+    margin-left: 10px;
+    color: #4B4B4B;
+    font-size: 16px;
+}
+
+.post-section .seet-wallet p {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-size: 15px;
+}
+
+.post-section .seet-wallet>img {
+    width: 22%;
+    border: 1px solid #E6E8EC;
+    background: #fff;
+    padding: 6px;
+    border-radius: 10px;
+    color: #B1B5C3;
+
+}
+
+.post-section .seet-wallet {
+    display: flex;
+    width: 230px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #45B26B;
+    border-radius: 10px;
+    padding: 8px 101.75px 8px 10px;
+}
+
+.post-section .settings p {
+    margin-left: 10px;
+    color: #4B4B4B;
+    font-size: 16px;
+}
+
+.post-section .settings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.post-section .settings .fa-font-awesome {
+    border: 1px solid #E6E8EC;
+    background: #E6E8EC;
+    padding: 6px;
+    border-radius: 10px;
+    color: #B1B5C3;
+
+}
+
+
+
+
+/* post-section end*/
+
+
+
+/* followers start */
+.followers {
+    width: 225px;
+    height: 272.4px;
+    margin: 0 20px;
+}
+
+.followers .followers-one img {
+    width: 45px;
+    height: 45px;
+}
+
+.followers .followers-one {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 222.68px;
+    height: 69px;
+    margin-bottom: 30px;
+}
+
+.followers .followers-one .img-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.followers .followers-one P {
+    color: #B1B5C3;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.followers .followers-one button {
+    width: 45px;
+    height: 45px;
+    border-radius: 14px;
+    border: 0;
+    color: #fff;
+    background-color: #979797;
+}
+
+/* followers end */
+
+
+/* laughter start */
+
+.laughter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    line-height: 25px;
+
+
+}
+
+.laughter .laughter-container {
+    text-align: center;
+    border: 1px solid #0000;
+}
+
+.laughter .laughter-container .fa-face-laugh {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+.laughter p {
+    color: #7e7e7e;
+}
